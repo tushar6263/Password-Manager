@@ -35,26 +35,16 @@ To get a local copy of the project up and running, follow these simple steps:
    git clone https://github.com/tushar6263/Password-Manager.git
    cd Password-Manager
 
-Install dependencies for both frontend and backend:
-
+### Install dependencies for both frontend and backend:
 For frontend (Next.js app):
-
-bash
-Copy code
 npm install
-Set up environment variables for the backend:
 
+### Set up environment variables for the backend:
 Create a .env file in the root directory with the following variables:
-
-env
-Copy code
 MONGO_URI=your_mongo_database_connection_url
 JWT_SECRET=your_jwt_secret
-Run the application:
 
+### Run the application:
 For the development server (Next.js):
-
-bash
-Copy code
 npm run dev
 Open your browser and visit http://localhost:3000 to use the application.
